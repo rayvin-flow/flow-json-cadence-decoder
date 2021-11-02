@@ -1,5 +1,7 @@
 `flow-json-cadence-decoder` is a JavaScript library to assist in decoding Cadence JSON values found in the [JSON-Cadence Data Interchange Format Spec](https://docs.onflow.org/cadence/json-cadence-spec/)
 
+NOTE: If you are already using [@onflow/fcl](https://github.com/onflow/fcl-js) then we recommend using the built-in decode method that is part of the sdk rather than this decoder. This is meant as a lightweight drop-in replacement if you only need to decode JSON-Cadence data.
+
 ---
 
 ### Installation
